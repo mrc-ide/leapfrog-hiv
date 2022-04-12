@@ -1,6 +1,6 @@
 
 \documentclass{article}
-\usepackage{xcolor}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{table}
 \usepackage{tabular}
 
@@ -14,7 +14,6 @@
 The following PJNZ files are incrementally more information to produce estimates regarding the burden of HIV in children. They are all based off of Botswana's PJNZ file and are identified as follows:
 
 % Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
 % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
 \begin{table}[]
 \begin{tabular}{llllllllll}
