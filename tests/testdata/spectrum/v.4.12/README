@@ -1,3 +1,14 @@
+
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{table}
+\usepackage{tabular}
+
+%% material here is the preamble
+
+\begin{document}
+
+
 # README
 
 The following PJNZ files are incrementally more information to produce estimates regarding the burden of HIV in children. They are all based off of Botswana's PJNZ file and are identified as follows:
@@ -21,3 +32,7 @@ test\_cotrim  & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor
 \end{table}
 
 For a give test, it adds on a new component of HIV transmission, which is reflected in the name. 
+
+%% material here is the body of the document
+
+\end{document}
