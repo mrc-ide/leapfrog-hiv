@@ -1,0 +1,23 @@
+# README
+
+The following PJNZ files are incrementally more information to produce estimates regarding the burden of HIV in children. They are all based off of Botswana's PJNZ file and are identified as follows:
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+\begin{tabular}{llllllllll}
+Run           & Demographics : pop proj  & Demographics: migration  & Incidence                & MTCT                     & MTCT (bf)                & Maternal ART             & PMTCT                    & Child ART                & Cotrim                   \\
+test          & \cellcolor[HTML]{5B9BD5} &                          &                          &                          &                          &                          &                          &                          &                          \\
+test\_mig     & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} &                          &                          &                          &                          &                          &                          &                          \\
+test\_hiv     & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} &                          &                          &                          &                          &                          &                          \\
+test\_mtct    & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} &                          &                          &                          &                          &                          \\
+test\_bf      & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} &                          &                          &                          &                          \\
+test\_mart    & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} &                          &                          &                          \\
+test\_pmtct   & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} &                          &                          \\
+test\_paedart & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} &                          \\
+test\_cotrim  & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5} & \cellcolor[HTML]{5B9BD5}
+\end{tabular}
+\end{table}
+
+For a give test, it adds on a new component of HIV transmission, which is reflected in the name. 
