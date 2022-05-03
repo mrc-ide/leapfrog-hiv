@@ -1,9 +1,9 @@
 Package: leapfrog
 Title: Multistate Population Projection Model for Demographic and HIV Estimation
-Version: 0.0.0.9001
+Version: 0.0.1
 Authors@R: 
     person(given = "Jeffrey",
-           family = "Last",
+           family = "Eaton",
            role = c("aut", "cre"),
            email = "jeffrey.eaton@imperial.ac.uk",
            comment = c(ORCID = "0000-0001-7728-728X"))
@@ -11,18 +11,18 @@ Description: Leapfrog is a multistate population projection model for estimating
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.2
 LinkingTo: 
     Rcpp,
-    RcppEigen,
-    TMB
+    RcppEigen
 Imports:
+    eppasm (>= 0.5.12),
     methods,
     Matrix,
-    Rcpp,
-    TMB (>= 1.7.16)
+    Rcpp
 Suggests:
     covr,
     popReconstruct,
     testthat (>= 2.1.0)
-
+Remotes:
+    mrc-ide/eppasm
